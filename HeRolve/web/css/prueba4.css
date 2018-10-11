@@ -1,0 +1,72 @@
+	.p4{
+			
+			width:100%;
+			height:100%;
+			z-index:1;
+			position: relative;
+		}
+
+		.casillas{
+			width:100%;
+			height:100%;
+			position:absolute;
+			top:0;
+			left:0;
+			
+		}
+		
+.divgrande{
+			width:65%;
+			height:100%;
+			float:left;
+			z-index:2;
+			position: relative;
+		}
+		
+		.divsup{
+			width:35%;
+			height:30%;
+			float:left;
+			z-index:2;
+	
+			position: relative;
+			
+		}
+		.divinf{
+		width:35%;
+		height:43%;
+		float:left;
+		z-index:2;
+		position: relative;
+		
+		}
+		.divcen{
+		width:35%;
+		height:27%;
+		float:left;
+		z-index:2;
+		position: relative;
+		
+		}
+		.divceniz{
+			width:45%;
+			height:100%;
+			float:left;
+			z-index:2;
+			position: relative;
+		
+		}
+		.divcendere{
+			width:40%;
+			height:100%;
+			float:left;
+			z-index:2;
+			position: relative;
+		}
+		.divok{
+			width:15%;
+			height:100%;
+			float:left;
+			z-index:2;
+			position: relative;
+		}

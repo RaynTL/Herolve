@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HeRolve</title>
+	<meta charset="UTF-8"/>
+	<link href = "./css/admin.css" rel = "stylesheet" type = "text/css" />
+	<link href = "./css/general.css" rel = "stylesheet" type = "text/css" />
+	<link href="./img/favicon.png" rel="icon" type="image/x-icon" />
+
+
+	<script type="text/javascript" language="javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript" language="javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" language="javascript" src="js/admin.js"></script>
+	<script type="text/javascript" language="javascript" src="js/general.js"></script>
+	<script type="text/javascript" language="javascript" src="js/admin_connected.js"></script>
+	<script type="text/javascript" language="javascript" src="js/admin_mission.js"></script>
+	<script type="text/javascript" language="javascript" src="js/admin_profile.js"></script>
+	<script type="text/javascript" language="javascript" src="js/admin_user.js"></script>
+	<script type="text/javascript" language="javascript" src="js/admin_world.js"></script>
+	<script type="text/javascript" language="javascript" src="js/admin_admin.js"></script>
+
+</head>
+
+<body>
+	<div id = "screen_container">
+		<div id="barra-superior">
+			<div id="barra-superior-izquierda">
+				<img id="logo" src="./img/logo/herolve2.png"/> 
+			</div>
+			<div id="barra-superior-centro">
+			</div>
+			<div id="barra-superior-derecha">
+				<div id="bsd-saludo"> 
+					<p>Hola <a id="user_name" class="herolve">Admin</a> </p>
+				</div>
+				<div id="bsd-botones">
+					<table id="tabla-bt-sup" >
+						<tr>
+							<td><a class= "bt-sup-img" id="bt-user"> aaa </a></td>
+							<td><a class= "bt-sup-img" id="bt-info"> aaa </a></td>
+							<td><a class= "bt-sup-img" id="bt-exit"> aaa </a></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+
+		<div id="zona-central">
+			<!-- Contenedor del menu -->
+			<div id = "menu_container">
+				<!-- Panel de navegacion -->
+				<ul id = "navigation_menu">
+					<!-- Boton de Inicio -->
+					<li class = "nav_button">
+						<button class = "boton admin" id = "bt-home">
+							<img class= "img-boton" src = "./img/buttons/home.png"/>Home
+						</button>
+					</li>
+					<!-- Boton de Usuarios -->
+					<li class = "nav_button">
+						<button class = "boton admin" id="bt-users">
+							<img class= "img-boton" src = "./img/buttons/user.png"/>Usuarios
+						</button>
+					</li>
+					<!-- Boton de Misiones -->
+					<li class = "nav_button">
+						<button class = "boton admin" id = "bt-mision">
+							<img class= "img-boton" src = "./img/buttons/flag.png"/>Misiones
+						</button>
+					</li>
+					<!-- Boton de Mundos -->
+					<!--<li class = "nav_button">
+						<button class = "boton admin" id = "bt-world">
+							<img class= "img-boton" src = "./img/buttons/home.png"/>Mundo
+						</button>
+					</li>-->
+					<!-- Boton de Mundos -->
+					<li class = "nav_button">
+						<button class = "boton admin" id = "bt-admin">
+							<img class= "img-boton" src = "./img/buttons/admin.png"/>Admin
+						</button>
+					</li>
+				</ul>
+			</div>
+
+			<!-- Panel de informacion-->
+			<div id = "info_container">
+				<div id = "center_container">
+					
+				</div>
+				<div id = "bitacoras_container">
+					<p>Estado del servidor: <a class="green">OK</a></p>
+					<p id="connected_users">Hay <a id="connected_count" class="herolve">0</a> usuarios conectados</p>
+				</div>
+
+			</div>
+
+			<div id = "info_footer"></div>
+		</div>
+
+		<!-- Pie de pagina -->
+		<div id = "menu_footer"></div>
+	</div>
+	<div id="infobox">
+		<div id="infobox-text"></div>
+		<div id="infobox-button">
+			<button id="bt-infobox" class="boton">Aceptar</button>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>Login </title>
+	<link href="./css/login.css" rel="stylesheet" type="text/css" />
+	<link href="./css/general.css" rel="stylesheet" type="text/css" />
+	<link href="./img/favicon.png" rel="icon" type="image/x-icon" />
+
+
+	<script type="text/javascript" language="javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript" language="javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" language="javascript" src="js/webtoolkit.sha1.js"></script>
+	<script type="text/javascript" language="javascript" src="js/login.js"></script>	
+	<script type="text/javascript" language="javascript" src="js/register.js"></script>
+	<script type="text/javascript" language="javascript" src="js/general.js"></script>
+
+</head>
+<body>
+	<div id="contenedor"> 
+
+		<div id="cabecera">
+			<div id="cabecera-logo">
+				<img id="logo" src="./img/logo/herolve.png"/> 
+			</div>
+
+			<div id="tituloHero">
+				<h1 class="Cabecera" > HeRolvE! </h1>
+			</div>
+
+			
+		</div>
+		<div id="centro">
+			<div id="sidebar-left">
+				<h2>¡¿Todavía no juegas?!</h2>
+				<p>Regístrate, ¡ES GRATIS!</p>
+				<p id="pRegistro"> Nombre de usuario: </p>
+				<input type="text" name="usuarioRegistrar" id="register_user">
+
+				<p id="pRegistro"> Contraseña: </p>				
+				<input type="password" name="contrasenaRegistrar" id="register_pass">
+				
+				<p id="pRegistro"> E-mail: </p>				
+				<input type="text" name="emailRegistrar" id="register_email">
+				
+				<p id="pRegistro"> Nombre de héroe: </p>				
+				<input type="text" name="heroeRegistrar" id="register_hero">
+				
+				<p id="pRegistro">
+					<input type = "checkbox" name = "Acepta_Condiciones"  id = "register_terms" required />
+					Acepto los <a href ="terminos.html">T&Cs</a> y la <a href ="declaracion.html">Declaración de protección de datos</a>
+				</p>
+				<br/>
+				<button id="bt-register" class="boton grande">Registrarse</button>
+				<br/>
+				<br/>
+				<a class="lightred" id="register_info"></a>
+			</div>
+
+			<div id="centro-centro">
+				<img id="vikingo" src="./img/vikingoPortada.png"/> 			
+			</div>
+			<div id="yaTieneCuenta">
+				<h2 id="pRegistro"> ¿Ya tienes cuenta? </h2>
+				<br/>
+				<p id="pRegistro"> Entra y retoma tu aventura </p>
+				<br/>
+				<p id="pRegistro"> Nombre de usuario: </p>
+				<input type="text" id="login_user">
+				
+				<p id="pRegistro"> Contraseña: </p>
+				<input type="password" id="login_pass">
+				
+				<p id="pRegistro"> Mundo: </p>
+				<select id="login_world">
+				</select>
+				<br/>
+				<br/>
+				<button id="bt-login" class="boton">Entrar</button>
+				<br/>
+				<br/>
+				<a class="lightred" id="login_info"></a>
+				
+			</div>
+
+		</div>	
+
+		<div id="pie">
+			<p>
+			<a href ="AvisoLegal.html">Aviso legal</a> | <a href ="declaracion.html">Declaración de protección de datos</a> | 
+			<a href ="terminos.html">T&Cs</a></p>
+		</div>
+
+	</div>
+
+	<div id="infobox">
+		<div id="infobox-text"></div>
+		<div id="infobox-button">
+			<button id="bt-infobox" class="boton">Aceptar</button>
+		</div>
+	</div>
+
+</body>
+</html>

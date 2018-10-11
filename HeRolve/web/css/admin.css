@@ -1,0 +1,100 @@
+
+/* Contenedor de la pantalla */
+#screen_container
+{
+	width: 100%;
+	height: 100%;
+}
+
+
+#zona-central{
+	width: 100%;
+	height: 100%;
+	clear:both;
+}
+
+/* Contenedor del menu de navegacion */
+#menu_container
+{
+	height: 100%;
+	width: 15%;
+	float:left;
+	background-color: #505050;
+}
+
+/* navigation panel */
+#navigation_menu
+{
+	padding: 0px;
+	list-style: none;
+	height: 50%;
+	width: 100%;
+	margin-left:15%;
+	margin-top: 60px;
+	display: block;
+	float: left;
+}
+
+/* Separacion de botones */
+li.nav_button
+{ 
+	height: 15%;
+}
+
+#info_container
+{
+	margin-top: 50px;
+	width: 85%;
+	height: 92%;
+	float: left;
+}
+
+#center_container
+{
+	width: 73%;
+	height: 90%;
+	float: left;
+	margin-top: 5px;
+	padding-top: 50px;
+	margin-left: 5px;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgba(230,230,230,0.8);
+	background-color: rgba(200,200,200,0.8);
+	overflow:auto;
+}
+
+#bitacoras_container
+{
+	width: 25%;
+	height: 90%;
+	float: left;
+	text-align: center;
+	margin-top: 5px;
+	margin-left: 5px;
+	padding-top: 50px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgba(230,230,230,0.8);
+	background-color: rgba(200,200,200,0.8);
+}
+
+#menu_footer
+{
+	clear: both;
+}
+
+#centro-centro{
+	width: 100%;
+}
+
+#table-user{
+	width: 100%;
+}
+
+#connected_users{
+	cursor:hand;
+	cursor:pointer;
+}
+

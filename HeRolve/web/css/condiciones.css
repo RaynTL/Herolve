@@ -1,0 +1,79 @@
+/**page login  */
+#contenedor{
+	width: 930px;
+	height: 85%;
+	margin: auto;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgba(230,230,230,0.8	);
+	background-color: rgba(160,160,160,0.6);
+	margin-top: 20px;
+	padding-top: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+	}
+
+#centro{
+	width: 100%;
+	height: 80%;
+}
+
+#tituloHero{
+	width:auto;
+	margin-top: auto;
+	font-size: 1em;
+	margin-left: auto;
+	margin-right:auto;
+	height:100%;
+}
+
+#cabecera{
+	float:left;
+	padding: 0px;
+	height: 80px;
+	width: 100%;
+	margin-bottom: 5px;
+	background-color: rgba(160,160,160,0);
+	text-align: center;
+
+}
+
+p.negrita{
+	font-weight : bold;
+}
+td.derecha{
+padding-left:10px;
+}
+h1.cabecera{
+	text-align:center;
+}
+
+.scrollbars {overflow:scroll; height:300px; overflow-x:hidden;} 
+
+#centro-centro{
+	float: left;
+	width: 100%;
+	height: auto;
+	margin-right: 10px;
+	
+
+}
+
+#pie{	
+	clear:both;
+	background-color: #8FD8A0;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgba(240,240,240,0.8);
+	background-color: rgba(220,220,220,0.7);
+	height: 50px;
+	bottom: 20px;
+	left: 0px;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+}
+
+
+

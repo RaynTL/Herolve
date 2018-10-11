@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HeRolve</title>
+	<meta charset="UTF-8"/>
+	<link href="./css/main.css" rel="stylesheet" type="text/css" />
+	<link href="./css/general.css" rel="stylesheet" type="text/css" />
+	<link href="./img/favicon.png" rel="icon" type="image/x-icon" />
+
+
+	<script type="text/javascript" language="javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript" language="javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" language="javascript" src="js/main.js"></script>
+	<script type="text/javascript" language="javascript" src="js/city.js"></script>
+	<script type="text/javascript" language="javascript" src="js/map.js"></script>
+	<script type="text/javascript" language="javascript" src="js/general.js"></script>
+	<script type="text/javascript" language="javascript" src="js/profile.js"></script>
+	<script type="text/javascript" language="javascript" src="js/friends.js"></script>
+	<script type="text/javascript" language="javascript" src="js/chat.js"></script>
+	<script type="text/javascript" language="javascript" src="js/requests.js"></script>
+
+</head>
+<body>
+	<div id="contenedor"> 
+		<div id="barra-superior">
+			<div id="barra-superior-izquierda">
+				<img id="logo" src="./img/logo/herolve2.png"/> 
+			</div>
+
+			<div id="barra-superior-centro">
+				<table id="tabla-recursos" >
+					<tr>
+						<td><img class= "recurso-img" src="./img/resources/wood.png"/>  </td>
+						<td><img class= "recurso-img" src="./img/resources/stone.png"/> </td>
+						<td><img class= "recurso-img" src="./img/resources/metal.png"/>  </td>
+						<td><img class= "recurso-img" src="./img/resources/food.png"/>  </td>
+						<td><img class= "recurso-img" src="./img/resources/rubi.png"/> </td>
+					</tr>
+					<tr>
+						<td> <p id="res_wood" class="recurso-valor">100</p></td>
+						<td> <p id="res_stone" class="recurso-valor">100</p> </td>
+						<td> <p id="res_metal" class="recurso-valor">100</p> </td>
+						<td> <p id="res_food" class="recurso-valor">100</p> </td>
+						<td> <p id="res_rubi" class="recurso-valor">100</p> </td>
+					</tr>
+				</table>
+
+			</div>
+
+			<div id="barra-superior-derecha">
+				<div id="bsd-saludo"> 
+					<p>Hola <a id="user_name" class="herolve">Jugador</a> </p>
+				</div>
+				
+				<div id="bsd-botones">
+					<table id="tabla-bt-sup" >
+						<tr>
+							<td><a class= "bt-sup-img" id="bt-alert"> aaa </a></td>
+							<td><a class= "bt-sup-img" id="bt-friends"> aaa </a></td>
+							<td><a class= "bt-sup-img" id="bt-user"> aaa </a></td>
+							<td><a class= "bt-sup-img" id="bt-info"> aaa </a></td>
+							<td><a class= "bt-sup-img" id="bt-exit"> aaa </a></td>
+						</tr>
+					</table>
+				</div>
+
+			</div>
+		</div>
+		<div id="zona-central">
+			<div id="zona-central-izquierda">
+				<div id="zona-central-izquierda-superior">
+					<img id="heroe-img" src="./img/heroes/hero-1.jpg"/>
+				</div>
+				<div id="zona-central-izquierda-inferior">
+					<table id="heroe-estado" >
+						<tr>
+							<td> Héroe </td>
+							<td id="hero_name"> Skarzka</td>
+						</tr>
+						<tr>
+							<td> Estado  </td>
+							<td id="hero_status"> En misión </td>
+						</tr>
+						<tr>
+							<td> Nivel </td>
+							<td id="hero_level"> 10 </td>
+						</tr>
+						<tr>
+							<td> Experiencia  </td>
+							<td id="hero_exp"> 3650 / 7500 </td>
+						</tr>
+						<tr>
+							<td> ----------- </td>
+							<td> ---------- </td>
+						</tr>
+						<tr>
+							<td> Poder </td>
+							<td id="hero_power"> 345 (45)</td>
+						</tr>
+						<tr>
+							<td> Magia </td>
+							<td id="hero_magic"> 215 (5)</td>
+						</tr>
+						<tr>
+							<td> Unidades físicas </td>
+							<td id="hero_units_power"> 300 / 10f </td>
+						</tr>
+						<tr>
+							<td> Unidades mágicas </td>
+							<td id="hero_units_magic"> 7 /30f </td>
+						</tr>
+					</table>
+				</div>
+
+			</div>
+			<div id="zona-central-centro">
+				
+			</div>
+			<div id="zona-central-derecha">
+				<div id="zona-central-derecha-superior">
+					<ul id="list-notify">
+						
+					</ul>
+				</div>
+				<div id="zona-central-derecha-inferior">
+					<div id="div-connected">
+						<table id="tabla-conectados">
+	
+						</table>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div id="barra-inferior">
+			<div id="bi-actions">
+				<p>
+					<button class="boton" id="bt-city">Ciudad</button>
+					<button class="boton" id="bt-map">Mundo</button>
+					<button class="boton" id="bt-juego">Retos</button>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="infobox">
+		<div id="infobox-text"></div>
+		<div id="infobox-button">
+			<button id="bt-infobox" class="boton">Aceptar</button>
+		</div>
+	</div>
+</body>
+</html>

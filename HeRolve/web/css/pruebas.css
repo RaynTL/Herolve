@@ -1,0 +1,94 @@
+
+		.informa{
+			clear:both;
+			font-size: 16px;
+			color: #770000;
+			
+		}
+		.enuncia{
+			font-size: 16px;
+			color: #770000;
+			margin: 0 auto;
+			text-align:center;
+			
+		}
+
+		.formulario{
+			width:80%;
+			height:50%;
+			margin: 0 auto;
+			float: center;
+			font-size: 16px;
+			color: #770000;
+		}
+	
+		.caja
+		{
+			font-size: 16px;
+			color: #770000;
+			text-align:center;
+			box-sizing:border-box;
+			float: center;
+			background-color: #c3c3c3;
+			border: solid 1px #000;
+			border-radius: 0.5em;
+			margin: 0 auto;
+			margin-top: 10px;
+			height: 30%;
+			padding: 10px;
+			width: 80%;
+			font-family: 'Special Elite', cursive;
+		}
+		
+
+
+		.caja2
+		{
+			box-sizing:border-box;
+			font-size: 16px;
+			height: 20%;
+			margin: 1 auto;
+			width: 70%;
+			float: left;
+			font-family: 'Special Elite', cursive;
+
+		}
+		
+		.cajapequena
+		{
+			font-size: 16px;
+			color: #770000;
+			text-align:center;
+			box-sizing:border-box;
+			float: center;
+			background-color: #c3c3c3;
+			border: solid 1px #000;
+			border-radius: 0.5em;
+			margin: 0 auto;
+			margin-top: 5px;
+			height: 15%;
+			width: 100%;
+			font-family: 'Special Elite', cursive;
+		}
+		
+		.cajapequena2
+		{
+			font-size: 16px;
+			color: #770000;
+			text-align:center;
+			float: center;
+			margin: 0 auto;
+			margin-top: 5px;
+			height: 10%;
+			width: 100%;
+			font-family: 'Special Elite', cursive;
+		}
+		.botton{
+			
+			width: 200px;
+			height: 40px;
+			float: left;
+			font-size: 16px;
+			font-family: 'Special Elite', cursive;
+}
+	

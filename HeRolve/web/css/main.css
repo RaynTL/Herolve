@@ -1,0 +1,341 @@
+ul
+{
+	list-style-type: none;
+	margin-left: -10px;
+}
+
+#contenedor {
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	position: relative;
+	margin: auto;
+}
+
+/* Saludo a jugador (barra superior derecha) */
+
+
+.building-img{
+	float:left;
+	width:100%;
+	height:auto;
+}
+
+.recurso-img{
+	float:left;
+	width:85%;
+	height:auto;
+	margin-top: 5px;
+}
+
+.recurso-valor{
+	margin-top: -14px;
+	margin-left: -5px;
+}
+
+#bt-alert {
+	background: transparent url('../img/buttons/alert.png') center top no-repeat; 
+	height: 30px;
+	width: 30px;
+	margin-right: 5px;
+	text-indent: -99999px;
+}
+#bt-alert:hover {
+	background: url('../img/buttons/alert_hover.png') center top no-repeat; 
+}
+#bt-alert:active {
+	margin-top: 3px;
+}
+
+#bt-friends {
+	background: transparent url('../img/buttons/friends.png') center top no-repeat; 
+	height: 30px;
+	width: 30px;
+	margin-right: 5px;
+	text-indent: -99999px;
+}
+#bt-friends:hover {
+	background: url('../img/buttons/friends_hover.png') center top no-repeat; 
+}
+#bt-friends:active {
+	margin-top: 3px;
+}
+
+
+/***** Zona Central *****/
+#zona-central{
+	width: 100%;
+	height: 100%;
+	clear:both;
+}
+#zona-central-izquierda{
+
+	width: 20%;
+	height: 80%;
+	float: left;
+}
+
+#zona-central-izquierda-superior{
+	background: #999900;
+	margin-top: 60px;
+	padding-top: 5px;
+	vertical-align: center;
+	width: 100%;
+	height:50%;
+	float: left;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgba(230,230,230,0.8);
+	background-color: rgba(200,200,200,0.8);
+}
+#zona-central-izquierda-inferior{
+	background: #449999;
+	width: 100%;
+	height:47.5%;
+	margin-top: 5px;
+	padding-top: 5px;
+	float: left;	
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgba(230,230,230,0.8);
+	background-color: rgba(200,200,200,0.8);
+	overflow:auto;
+}
+#zona-central-centro{
+
+	width: 59%;
+	height: 80%;
+	float: left;
+	margin-left: 6px;
+	margin-top: 60px;
+	padding-top: 5px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgba(230,230,230,0.8);
+	background-color: rgba(200,200,200,0.8);
+}
+#zona-central-derecha{
+
+	background-color: rgba(160,160,160,0.6);
+	width: 20%;
+	height: 80%;
+	float: right;
+}
+#zona-central-derecha-superior{
+	margin-top: 60px;
+	padding-top: 5px;
+	width: auto;
+	height:50%;
+	background-color: rgba(200,200,200,0.8);
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgba(230,230,230,0.8);
+	overflow:auto;
+
+}
+#zona-central-derecha-inferior{
+
+	width: auto;
+	height:47.5%;
+	margin-top: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgba(230,230,230,0.8);
+	background-color: rgba(200,200,200,0.8);
+	overflow:auto;
+
+
+}
+
+/**** Barra inferior ****/
+#barra-inferior {
+
+	background-color: #404040;
+	width: 100%;
+	height: 50px;
+	bottom: 0px;
+	left: 0px;
+	position: absolute;
+	text-align: center;
+
+}
+
+#bi-actions {
+	width: 100%;
+	height: 100%;
+	margin-top: -5px;
+}
+
+
+#tabla-recursos {
+	width: auto;
+	height: 100%;
+	margin: auto;
+	text-align: center;
+	
+}
+
+
+#heroe-estado {
+	width: auto;
+	margin: auto;
+	text-align: center;
+	
+}
+
+#div-profile{
+	width:100%;
+	height:100%;
+	text-align: center;
+}
+
+#heroe-img{
+	margin: auto;
+	height: auto;
+	width: auto;
+	display: block;
+}
+
+#div-connected{
+	width: 100%;
+	height: 85%;
+	text-align: center;
+}
+
+#div-container-addfriend{
+	width: 100%;
+	height: 15%;
+	text-align: center;
+}
+
+#div-addfriend{
+	width: 100%;
+	height: 25px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+#tabla-conectados{
+	display:block;
+}
+
+td.estado{
+	padding-left: 50px;
+	cursor:hand;
+	cursor:pointer;
+}
+
+td.amigo{
+	padding-left: 10px;
+	cursor:hand;
+	cursor:pointer;
+}
+
+/*
+ * MAP
+ */
+
+ #map {
+ 	height: 100%;
+ 	width: 100%;
+ }
+
+ #map-container {
+ 	width: 100%;
+ 	height: 100%;
+ 	position: relative;
+ }
+ #map-cells {
+ 	float: left;
+ 	width:100%;
+ 	height:100%;
+ 	position: absolute;
+ 	left: 0px;
+ 	top: 0px;
+ 	z-index: 1000;
+ 	color: #FFFFFF;
+ 	font-weight: bold;
+ }
+
+
+/*
+ * QUEST
+ */
+
+ #tabla-quest{
+ 	display:block;
+ 	height: 100%;
+ 	width: 100%;
+ 	margin-top: 10px;
+ 	text-align: center;
+ }
+
+
+ td.quest-nombre{
+ 	width:30%;
+ }
+
+ td.quest-descripcion{
+ 	width:30%;
+ }
+
+ td.quest-estado{
+ 	width:30%;
+ }
+
+ td.quest-action{
+ 	cursor:hand;
+ 	cursor:pointer;
+ 	width:25%;
+ }
+
+
+/* 
+ * CHAT
+ */
+
+#chat{
+	width: 100%;
+	height: 95%;
+}
+
+#chat-title{
+	width: 100%;
+	height: 10%;
+}
+
+#bt-chatback{
+	width: 10%;
+	height: 25px;
+}
+
+#chat-usertitle{
+	width: 88%;
+	height: 100%;
+}
+
+#chat-read{
+	overflow: auto;
+	clear: both;
+	width: auto;
+	height: 80%;
+}
+
+#chat-table{
+	width: auto;
+	height: auto;
+}
+
+#chat-write{
+	float: left;
+	width: 100%;
+	height: 10%;
+}
+
+#chat-input{
+	width: 98%;
+	height: 100%;
+}
