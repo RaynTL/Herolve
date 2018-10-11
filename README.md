@@ -1,7 +1,7 @@
 # Herolve
-Web game developed for Web Apps, 3rd year of Computer Engineering
-fichero .zip contiene el juego en local.
-Desarrollado desde febrero 2015 a junio 2015 por:
+Web game developed for Web Apps, 3rd year of Computer Engineering.
+.zip file contains the game for local tests.
+Developed from February 2015 to June 2015 by:
 
   Miguel Andrés Herrero
   Rodrigo Crespo Cepeda
